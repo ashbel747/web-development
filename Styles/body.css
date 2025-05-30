@@ -1,0 +1,295 @@
+:root {
+  --bg-color: rgb(49, 189, 61);
+  --text-color: #000000;
+}
+
+.Plant-fuel-body.dark-mode {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  --bg-color: #121212;
+  --text-color: #ffffff;
+  transition: background-color 0.3s ease, color 0.3s ease;
+  font-family: Arial, sans-serif;
+  min-height: 100vh;
+  
+}
+
+.toggle-part {
+  text-align: center;
+}
+
+.toggle-theme-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+
+
+.second-part{
+        display: flex;
+        flex-direction:row;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 45px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 55px;
+        background-color: rgb(49, 189, 61);
+        row-gap: 30px;
+    }
+.left-section{
+        width: 850px;
+    }
+.left-section p{
+        font-weight: bolder;
+        font-size: 25px;
+    }  
+.right-section button{
+        background-color: black;
+        color: white;
+        font-size: 10px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        padding-left: 12px;
+        padding-right: 12px;
+        margin-right: 18px;
+        border: none;
+        cursor: pointer;
+    }
+.right-section button:hover{
+        opacity: 0.8;
+    }
+.right-section button:active{
+        opacity: 0.4;
+    }
+.third-part{
+        background-color: rgb(49, 189, 61);
+    }
+.third-part img{
+       
+        padding-top: 40px;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-bottom: 20px;
+    }
+.fourth-part{
+        
+        background-color: var(--bg-color);
+        color: var(--text-color);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: centre;
+        padding-top: 10px;
+        padding-bottom: 5px;
+
+    }
+.fourth-part button{
+        border: none;
+        background-color: rgb(49, 189, 61);
+        color: black;
+        border: none;
+        cursor: pointer;
+    }
+.fourth-part button:hover{
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.15); 
+    }
+.company-name{
+        margin-top: 10px;
+        
+    }
+.join-2-button button{
+        background-color: rgb(49, 189, 61);
+        color: black;
+        border-width: 1px;
+        border-color: black;
+        padding-top: 6px;
+        padding-bottom: 6px;
+        padding-left: 6px;
+        padding-right: 6px;
+        margin-right: 18px;
+        transition: padding 0.15s;
+    }
+.join-2-button button:hover{
+        opacity: 0.7;
+    }
+.fifth-part{
+        padding-left: 28px;
+        background-color: rgb(49, 189, 61);
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        row-gap: 10px;
+        margin-bottom: 0;
+    }
+.sixth-part{
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 250px;
+        background-color: rgb(49, 189, 61);
+        font-size: 30px;
+    }
+.seventh-part{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    
+        align-items: centre;
+        background-color: rgb(49, 189, 61);
+        font-size: 15px;
+        padding-left: 5px;
+    }
+.eighth-part{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(49, 189, 61);
+        padding-left: 8px;
+    }
+.left-title{
+        font-size: 30px;
+    }
+.image-2 img{
+        height: 300px;
+        width: 300px;
+        margin-right: 20px;
+    }
+.nineth-part{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color: burlywood;
+    }
+.nineth-part-header{
+        background-color: burlywood;
+        padding-bottom: 30px;
+        padding-top: 30px;
+}
+    
+.tenth-part{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: black;
+        color: white;
+    }
+.join-3-button{
+        background-color: white;
+        color: black;
+        border: none;
+        font-size: 15px;
+        margin-left: 20px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        padding-left: 20px;
+        padding-right: 20px;
+        margin-right: 5px;
+        cursor: pointer;
+    }
+.join-3-button:hover{
+        opacity: 0.7;
+    }
+.learn-more-button{
+        color: white;
+        background-color: black;
+        border-color: white;
+        border-width: 1px;
+        border-style: solid;
+        display: inline-block;
+        padding-left: 8px;
+        padding-right: 8px;
+        cursor: pointer;
+        transition: background-color 0.15s, color 0.15s;
+    }
+.learn-more-button:hover{
+        background-color: grey;
+        color: black;
+        border-color: black;
+        border-style: solid;
+        border-width: 1px;
+        cursor: pointer;
+    }
+.eleventh-part{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgb(49, 189, 61);
+        color: black;
+    }
+.join-4-button{
+        display: inline-block;
+        background-color: rgb(49, 189, 61);
+        border: none;
+        font-size: 18px;
+        cursor: pointer;
+    }
+.join-4-button:hover{
+        opacity: 0.7;
+    }
+.learn-more-2-button{
+        color: black;
+        background-color: rgb(49, 189, 61);
+        border-color: black;
+        border-width: 1px;
+        border-style: solid;
+        display: inline-block;
+        padding-left: 8px;
+        padding-right: 8px;
+        cursor: pointer;
+    }
+.learn-more-2-button:hover{
+        opacity: 0.7;
+    }
+.left{
+        margin-left: 20px;
+    }
+.eleventh-pure{
+        font-size: 13px;
+    }
+.eleventh-transparency{
+    font-size: 30px;
+    }
+.twelveth-part{
+        background-color: var(--bg-color);
+        color: var(--text-color);
+        padding-left: 80px;
+        padding-top: 30px;
+        padding-right: 80px;
+    }
+.faq-heading{
+        padding-left: 250px;
+        font-size: 30px;
+    }
+.still-have-questions{
+        padding-left: 250px;
+    }
+.contact-us-button{
+        color: black;
+        background-color: rgb(49, 189, 61);
+        border-color: black;
+        border-width: 1px;
+        border-style: solid;
+        cursor: pointer;
+        padding: 6px;
+        margin-bottom: 10px;
+        margin-left: 30px;
+    }
+.thirteenth-part{
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color: burlywood;
+}
+.footer{
+        font-size: 10px;
+        display: flex;
+        justify-content: space-between;
+        background-color: rgb(49, 189, 61);
+    }
